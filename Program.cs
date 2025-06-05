@@ -12,7 +12,4 @@ builder.Services
     .ConfigureFunctionsApplicationInsights();
 
 builder.Build().Run();
-
-//test
-
-// this is the entry point for the Azure Functions Worker application.  
+ 
