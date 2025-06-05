@@ -9,7 +9,7 @@
             "enableLiveMetricsFilters": true
         }
     },
-    extenstion: {
+    "extenstion": {
         "durableTask": {
             "storageProvider": {
                 "connectionStringName": "AzureWebJobsStorage"

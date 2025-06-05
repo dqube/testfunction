@@ -24,9 +24,8 @@ namespace MyDurableFunctionApp
             _logger.LogInformation("Processing activity with input: {input}", input);
             
             // Simulate work
-            await Task.Delay(1000);
             
-            return input.ToUpper();
+            return await Task.FromResult(input.ToUpper());
         }
     }
 
