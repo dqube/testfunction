@@ -39,6 +39,7 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
+          auth-type: IDENTITY
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
           allow-no-subscriptions: true
 
