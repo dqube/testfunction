@@ -12,10 +12,7 @@
     "extenstion": {
         "durableTask": {
             "storageProvider": {
-        "type": "mssql",
-        "connectionStringName": "SQLDB_Connection",
-        "taskEventLockTimeout": "00:02:00",
-        "createDatabaseIfNotExists": false
+         "connectionStringName": "AzureWebJobsStorage"
       }
         }
     }
